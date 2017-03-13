@@ -1,0 +1,254 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<html>\n    <head>\n\t\t<title>3DTzão</title>\n\t\t<meta charset=\"utf-8\" />\n\t\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\" />\n\t</head>\n\n\t<body>\n\t\t\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t<ul class=\"list-unstyled\">\n\t\t\t\t\t\n\t\t\t\t\t\t<li class=\"row\" style=\"background-color: green; height: 50px; line-height: 50px\">\n\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 100px; height: 50px; background-color: gray\"></div>\n\t\t\t\t\t\t\t<p class=\"col-sm-9\">FORÇA</p>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li class=\"row\" style=\"height: 50px; line-height: 50px\">\n\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 100px; height: 50px; background-color: gray\"></div>\n\t\t\t\t\t\t\t<p class=\"col-sm-9\">PODER DE FOGO</p>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li class=\"row\" style=\"height: 50px; line-height: 50px\">\n\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 100px; height: 50px; background-color: gray\"></div>\n\t\t\t\t\t\t\t<p class=\"col-sm-9\">HABILIDADE</p>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li class=\"row\" style=\"height: 50px; line-height: 50px\">\n\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 100px; height: 50px; background-color: gray\"></div>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p class=\"col-sm-9\">EXPRESSÃO</p>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li class=\"row\" style=\"height: 50px; line-height: 50px\">\n\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 100px; height: 50px; background-color: gray\"></div>\n\t\t\t\t\t\t\t<p class=\"col-sm-9\">RESISTÊNCIA</p>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li class=\"row\" style=\"height: 50px; line-height: 50px\">\n\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 100px; height: 50px; background-color: gray\"></div>\n\t\t\t\t\t\t\t<p class=\"col-sm-9\">SABEDORIA</p>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li class=\"row\" style=\"height: 50px; line-height: 50px\">\n\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 100px; height: 50px; background-color: gray\"></div>\n\t\t\t\t\t\t\t<p class=\"col-sm-9\">MÁCULA</p>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t\t\t<li class=\"row\" style=\"height: 100px;\">\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t\t\t<div class=\"row\" style=\"height: 30px; line-height: 30px\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 50px; height: 30px; background-color: gray\"></div>\n\t\t\t\t\t\t\t\t\t<p class=\"col-sm-9\">PERCEPÇÃO</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class=\"row\" style=\"height: 30px; line-height: 30px; margin-top: 5px\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 50px; height: 30px; background-color: gray\"></div>\n\t\t\t\t\t\t\t\t\t<p class=\"col-sm-9\">INTUIÇÃO</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t\t\t<div class=\"row\" style=\"height: 30px; line-height: 30px\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 50px; height: 30px; background-color: gray\"></div>\n\t\t\t\t\t\t\t\t\t<p class=\"col-sm-9\">VONTADE</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div class=\"row\" style=\"height: 30px; line-height: 30px; margin-top: 5px\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3\" style=\"width: 50px; height: 30px; background-color: gray\"></div>\n\t\t\t\t\t\t\t\t\t<p class=\"col-sm-9\">TOLERÂNCIA</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<p class=\"col-sm-1\">FA</p>\n\t\t\t\t\t\t<div class=\"col-sm-2\" style=\"background-color: gray; height: 20px; line-height: 20px;\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<p class=\"col-sm-1\">FA</p>\n\t\t\t\t\t\t<div class=\"col-sm-2\" style=\"background-color: gray; height: 20px; line-height: 20px;\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<p class=\"col-sm-1\">FA</p>\n\t\t\t\t\t\t<div class=\"col-sm-2\" style=\"background-color: gray; height: 20px; line-height: 20px;\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"row\" style=\"border: 1px solid black; text-align: center\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t\t\t<p><u>NORMAL</u></p>\n\t\t\t\t\t\t\t<div class=\"col-sm-12\" style=\"height: 40px; background-color: blue\"></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t\t\t<p>COMBATE</p>\n\t\t\t\t\t\t\t<div class=\"col-sm-12\" style=\"height: 40px; background-color: blue\"></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t\t\t<p>MÁXIMA</p>\n\t\t\t\t\t\t\t<div class=\"col-sm-12\" style=\"height: 40px; background-color: blue\"></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t\t\t<p>VIAGEM</p>\n\t\t\t\t\t\t\t<div class=\"col-sm-12\" style=\"height: 40px; background-color: blue\"></div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"row\" style=\"margin-top: 20px\">\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t\t<p style=\"text-align: center\">INVENTÁRIO</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-sm-6\">\n\t\t\t\t\t\t\t<p style=\"text-align: center\">PERÍCIAS</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\n\t</body>\n</html>",
+			"file": "page.html",
+			"file_size": 4780,
+			"file_write_time": 131335891574869237,
+			"settings":
+			{
+				"buffer_size": 4637,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Users/iirok/Github/roll20-character-sheets/3D&Tzao"
+	],
+	"file_history":
+	[
+		"/D/Users/iirok/Github/roll20-character-sheets/5th Edition OGL by Roll20/5th Edition OGL by Roll20.html",
+		"/D/Users/iirok/Github/roll20-character-sheets/3D&Tzao/sheet.json",
+		"/D/Users/iirok/Github/roll20-character-sheets/3D&Tzao/README.md",
+		"/D/Users/iirok/Github/roll20-character-sheets/Arkham Horror/sheet.json",
+		"/D/Users/iirok/Github/roll20-character-sheets/3D&Tzao/kitchensink.css",
+		"/D/Users/iirok/OneDrive/Documents/rafaelroque.pub",
+		"/D/Users/iirok/Desktop/ST26/ST26.ftd",
+		"/D/Users/iirok/OneDrive/Documents/id_rsa",
+		"/D/Users/iirok/Github/roll20-character-sheets/13th_Age-neovatar/sheet.json",
+		"/D/Users/iirok/Github/roll20-character-sheets/5th Edition OGL by Roll20/sheet.json",
+		"/D/Users/iirok/Github/roll20-character-sheets/3DeT_ALPHA/sheet.json",
+		"/C/Users/iirok/.flashTool/devices/.gitignore",
+		"/C/Users/iirok/.flashTool/devices/README.md",
+		"/C/Program Files (x86)/DiRT 3 Complete Edition/actionmap/lg_g29.xml",
+		"/C/Program Files (x86)/DiRT 3 Complete Edition/actionmap/actionMapPaths.xml",
+		"/C/Program Files (x86)/DiRT 3 Complete Edition/forcefeedback/devicesetup.xml",
+		"/D/Users/iirok/OneDrive/Documents/Euro Truck Simulator 2/mods_info.sii",
+		"/D/Users/iirok/OneDrive/Documents/Euro Truck Simulator 2/config.cfg",
+		"/D/Users/iirok/Desktop/vold.fstab",
+		"/D/Users/iirok/Desktop/TWRP_j/j/install.bat",
+		"/D/Users/iirok/Desktop/TWRP_j/j/files/step3.sh",
+		"/C/Users/iirok/AppData/Local/Temp/7zO43A12B52/default.prop",
+		"/C/Users/iirok/.flashTool/registeredDevices/null/s1ta/2017-03-04_02-36-48/1.ta",
+		"/C/Users/iirok/.flashTool/firmwares/Downloads/ST26a_Customized BR_1270-0747_11.2.A.0.31_R3E/partition-image_S1-SW-LIVE-A8A4-PID1-0002-MBR.header",
+		"/C/Users/iirok/.flashTool/devices/backup/ST26.properties",
+		"/E/PROPHET/prophet.nfo",
+		"/D/Users/iirok/Desktop/TWRP_j/j/files/step3.sh~",
+		"/D/Users/iirok/Desktop/TWRP_j/j/files/sh",
+		"/D/Users/iirok/OneDrive/Documents/Euro Truck Simulator 2/profiles/52616661656C/gearbox_range_splitter.Sii",
+		"/D/Users/iirok/Desktop/EATON_FULLER_V7/gearbox_range.sii",
+		"/D/Users/iirok/Desktop/EATON_FULLER_V7/gearbox_range_splitter.Sii",
+		"/D/Users/iirok/OneDrive/Documents/American Truck Simulator/config.cfg",
+		"/D/Users/iirok/OneDrive/Documents/American Truck Simulator/profiles/526F6E616C646F/gearbox_range_splitter.sii",
+		"/C/Users/iirok/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/D/Users/iirok/Desktop/Ftp quanty@quanty.com.br.xml",
+		"/C/Users/iirok/AppData/Local/Temp/7zOC6C54F2C/updater-script",
+		"/D/Users/iirok/Desktop/hdaudio.inf"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"g27"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\Users\\iirok\\Github\\roll20-character-sheets\\3D&Tzao"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4484,
+								4484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1346.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
