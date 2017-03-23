@@ -1,0 +1,458 @@
+<html>
+    <head>
+		<title>3DTzão</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+		<style type="text/css">
+			div.sheet-container{
+				width: 750px;
+				background-color: white;
+				border: 50px solid transparent;
+				border-image:url(border.png) 50 50 stretch;
+			}
+			div.sheet-header {
+				height: 45px;
+				padding: 0px 2px;
+			}
+			input.sheet-header {
+				height: 30px; width: 100%;
+			}
+			label.sheet-header {
+				font-size: 11px;
+			}
+			.sheet-header-logo {
+				position: relative;
+				top: -20px;
+			}
+			input:focus, textarea:focus select:focus {
+				outline: none;
+			}
+			hr {
+				border: none;
+				margin-bottom: 0px;
+			}
+			hr.sheet-pe {
+				margin-bottom: 2px;
+				border-top: 1px solid black;
+			}
+		</style>
+	</head>
+
+	<body>
+		
+		<div class="sheet-container">
+			<div class="sheet-row">
+				<div class="sheet-col-sm-10">
+					<div class="sheet-row">
+						<div class="sheet-col-sm-6 sheet-header">
+							<input class="sheet-header" type="text" name="attr-nome">
+							<label class="sheet-header">Nome do Personagem</label>
+						</div>
+						<div class="sheet-col-sm-2 sheet-header">
+							<input class="sheet-header" type="text" name="attr-raca">
+							<label class="sheet-header">Raça</label>
+						</div>
+						<div class="sheet-col-sm-4 sheet-header">
+							<input class="sheet-header" type="text" name="attr-classenivel">
+							<label class="sheet-header">Classe / Nível</label>
+						</div>
+					</div>
+				</div>
+				<div class="sheet-col-sm-2 sheet-header">
+					<img class="sheet-header-logo" src="3dtzao-logo.png" height="60px" width="117px">
+				</div>
+			</div>
+			<div class="sheet-row">
+				<div class="sheet-col-sm-10">
+					<div class="sheet-row">
+						<div class="sheet-col-sm-6 sheet-header">
+							<input class="sheet-header" type="text" name="attr-funcao">
+							<label class="sheet-header">Papel de Combate / Função</label>
+						</div>
+						<div class="sheet-col-sm-2 sheet-header">
+							<input class="sheet-header" type="text" name="attr-divindade">
+							<label class="sheet-header">Divindade</label>
+						</div>
+						<div class="sheet-col-sm-4 sheet-header">
+							<input class="sheet-header" type="text" name="attr-kit">
+							<label class="sheet-header">Kit</label>
+						</div>
+					</div>
+					<div class="sheet-row">
+						<div class="sheet-col-sm-1 sheet-header">
+							<input class="sheet-header" type="text" name="attr-idade">
+							<label class="sheet-header">Idade</label>
+						</div>
+						<div class="sheet-col-sm-1 sheet-header">
+							<input class="sheet-header" type="text" name="attr-sexo">
+							<label class="sheet-header">Sexo</label>
+						</div>
+						<div class="sheet-col-sm-3 sheet-header">
+							<input class="sheet-header" type="text" name="attr-altura">
+							<label class="sheet-header">Altura / Tamanho</label>
+						</div>
+						<div class="sheet-col-sm-1 sheet-header">
+							<input class="sheet-header" type="text" name="attr-peso">
+							<label class="sheet-header">Peso</label>
+						</div>
+						<div class="sheet-col-sm-3 sheet-header">
+							<input class="sheet-header" type="text" name="attr-aparencia">
+							<label class="sheet-header">Aparência</label>
+						</div>
+						<div class="sheet-col-sm-3 sheet-header">
+							<input class="sheet-header" type="text" name="attr-localidade">
+							<label class="sheet-header">Localidade</label>
+						</div>
+					</div>
+				</div>
+				
+				<div class="sheet-col-sm-2" style="height: 73px; padding: 0px">
+					<div class="sheet-col-sm-12" style="border: 1px solid black; border-radius: 15px; padding: 0px; text-align: center;">
+						<label style="font-size: 11px; margin: 0px;">PEs</label>
+						<input type="text" name="attr-pe" style="height: 20px; border: none; background-color: transparent; width: 90%; margin: 0px 5px; font-size: 20px; text-align: center;">
+						<hr style="margin: 0px 0px 2px 0px; border-top: 1px solid black">
+						<label style="font-size: 11px; margin: 0px;">PEs Totais</label>
+						<input type="text" name="attr-petotal" style="height: 20px; border: none; background-color: transparent; width: 90%; margin: 0px 5px; font-size: 20px; text-align: center;">
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="sheet-row">
+				<div class="sheet-col-sm-6">
+					<ul class="sheet-list-unstyled">
+					
+						<li class="sheet-row" style="background-color: black; height: 55px; line-height: 50px; margin-top: 15px; margin-bottom: 25px; margin-right: 10px; border-radius: 10px">
+							<div class="sheet-col-sm-3" style="width: 70px; height: 60px; background-color: white; border: 1px solid black; border-radius: 10px; position: relative; top: -20px; left: 10px; padding: 0px; z-index: 1;">
+								<input type="text" name="attr-forca" style="height: 60px; width: 68px; background-color: transparent; border:none; font-size: 40px; text-align: center;">
+							</div>
+							<div style="height: 50px;">
+								<div class="sheet-row" style="height: 25px; position: relative; top: -10px; left: 20px;">
+									<label style="color: white">Força
+									</label>
+								</div>
+								<div style="height: 25px; width: 65%; background-color: white; border-radius: 7px; position: relative; left: 86px;">
+									<label style="position:relative; top: -12px; left: -65px">Peso Max.</label>
+									<input type="text" name="attr-peso_max" style="height: 25px; width: 62%;border: none; background-color: transparent; position: relative; top: -55px; left: 75px;">
+								</div>
+								
+							</div>
+						</li>
+						
+						<li class="sheet-row" style="background-color: black; height: 55px; line-height: 50px; margin-top: 15px; margin-bottom: 25px; margin-right: 10px; border-radius: 10px">
+							<div class="sheet-col-sm-3" style="width: 70px; height: 60px; background-color: white; border: 1px solid black; border-radius: 10px; position: relative; top: -20px; left: 10px; padding: 0px; z-index: 1;">
+								<input type="text" name="attr-PdF" style="height: 60px; width: 68px; background-color: transparent; border:none; font-size: 40px; text-align: center;">
+							</div>
+							<div style="height: 50px;">
+								<div class="sheet-row" style="height: 25px; position: relative; top: -10px; left: 20px;">
+									<label style="color: white">Poder de Fogo
+									</label>
+								</div>
+								<div style="height: 25px; width: 65%; background-color: white; border-radius: 7px; position: relative; left: 86px;">
+									<label style="position:relative; top: -12px; left: -65px">Alcance</label>
+									<input type="text" name="attr-alcance" style="height: 25px; width: 62%;border: none; background-color: transparent; position: relative; top: -55px; left: 75px;">
+								</div>
+								
+							</div>
+						</li>
+						<li class="sheet-row" style="background-color: black; height: 85px; line-height: 50px; margin-top: 15px; margin-bottom: 25px; margin-right: 10px; border-radius: 10px">
+							<div class="sheet-col-sm-3" style="width: 70px; height: 60px; background-color: white; border: 1px solid black; border-radius: 10px; position: relative; top: -20px; left: 10px; padding: 0px; z-index: 1;">
+								<input type="text" name="attr-habilidade" style="height: 60px; width: 68px; background-color: transparent; border:none; font-size: 40px; text-align: center;">
+							</div>
+							<div style="height: 80px;">
+								<div class="sheet-row" style="height: 25px; position: relative; top: -10px; left: 20px;">
+									<label style="color: white">Habilidade
+									</label>
+								</div>
+								<div style="height: 25px; width: 65%; background-color: white; border-radius: 7px; position: relative; left: 86px;">
+									<label style="position:relative; top: -12px; left: -65px">Iniciativa</label>
+									<input type="text" name="attr-iniciativa" style="height: 25px; width: 62%;border: none; background-color: transparent; position: relative; top: -55px; left: 75px;">
+								</div>
+								<div style="height: 25px; width: 65%; background-color: white; border-radius: 7px; position: relative; top: 5px; left: 86px;">
+									<label style="position:relative; top: -12px; left: -65px">Esquiva</label>
+									<input type="text" name="attr-esquiva" style="height: 25px; width: 62%;border: none; background-color: transparent; position: relative; top: -55px; left: 75px;">
+								</div>
+								
+							</div>
+						</li>
+						<li class="sheet-row" style="background-color: black; height: 55px; line-height: 50px; margin-top: 15px; margin-bottom: 25px; margin-right: 10px; border-radius: 10px">
+							<div class="sheet-col-sm-3" style="width: 70px; height: 60px; background-color: white; border: 1px solid black; border-radius: 10px; position: relative; top: -20px; left: 10px; padding: 0px; z-index: 1;">
+								<input type="text" name="attr-expressao" style="height: 60px; width: 68px; background-color: transparent; border:none; font-size: 40px; text-align: center;">
+							</div>
+							<div style="height: 50px;">
+								<div class="sheet-row" style="height: 25px; position: relative; top: -10px; left: 20px;">
+									<label style="color: white">Expressão
+									</label>
+								</div>
+							</div>
+						</li>						
+						</li>
+						<li class="sheet-row" style="background-color: black; height: 85px; line-height: 50px; margin-top: 15px; margin-bottom: 25px; margin-right: 10px; border-radius: 10px">
+							<div class="sheet-col-sm-3" style="width: 70px; height: 60px; background-color: white; border: 1px solid black; border-radius: 10px; position: relative; top: -20px; left: 10px; padding: 0px; z-index: 1;">
+								<input type="text" name="attr-resistencia" style="height: 60px; width: 68px; background-color: transparent; border:none; font-size: 40px; text-align: center;">
+							</div>
+							<div style="height: 80px;">
+								<div class="sheet-row" style="height: 25px; position: relative; top: -10px; left: 20px;">
+									<label style="color: white">Resistência
+									</label>
+								</div>
+								<div style="height: 25px; width: 65%; background-color: white; border-radius: 7px; position: relative; left: 86px;">
+									<label style="position:relative; top: -12px; left: -65px">PV</label>
+									<input type="text" name="attr-pv" style="height: 25px; width: 62%;border: none; background-color: transparent; position: relative; top: -55px; left: 75px;">
+								</div>
+								<div style="height: 25px; width: 65%; background-color: white; border-radius: 7px; position: relative; top: 5px; left: 86px;">
+									<label style="position:relative; top: -12px; left: -65px">PF</label>
+									<input type="text" name="attr-pf" style="height: 25px; width: 62%;border: none; background-color: transparent; position: relative; top: -55px; left: 75px;">
+								</div>
+								
+							</div>
+						</li>
+						<li class="sheet-row" style="background-color: black; height: 85px; line-height: 50px; margin-top: 15px; margin-bottom: 25px; margin-right: 10px; border-radius: 10px">
+							<div class="sheet-col-sm-3" style="width: 70px; height: 60px; background-color: white; border: 1px solid black; border-radius: 10px; position: relative; top: -20px; left: 10px; padding: 0px; z-index: 1;">
+								<input type="text" name="attr-sabedoria" style="height: 60px; width: 68px; background-color: transparent; border:none; font-size: 40px; text-align: center;">
+							</div>
+							<div style="height: 80px;">
+								<div class="sheet-row" style="height: 25px; position: relative; top: -10px; left: 20px;">
+									<label style="color: white">Sabedoria
+									</label>
+								</div>
+								<div style="height: 25px; width: 65%; background-color: white; border-radius: 7px; position: relative; left: 86px;">
+									<label style="position:relative; top: -12px; left: -65px">PS</label>
+									<input type="text" name="attr-ps" style="height: 25px; width: 62%;border: none; background-color: transparent; position: relative; top: -55px; left: 75px;">
+								</div>
+								<div style="height: 25px; width: 65%; background-color: white; border-radius: 7px; position: relative; top: 5px; left: 86px;">
+									<label style="position:relative; top: -12px; left: -65px">PM</label>
+									<input type="text" name="attr-pm" style="height: 25px; width: 62%;border: none; background-color: transparent; position: relative; top: -55px; left: 75px;">
+								</div>
+								
+							</div>
+						</li>
+						<li class="sheet-row" style="background-color: black; height: 55px; line-height: 50px; margin-top: 15px; margin-bottom: 25px; margin-right: 10px; border-radius: 10px">
+							<div class="sheet-col-sm-3" style="width: 70px; height: 60px; background-color: white; border: 1px solid black; border-radius: 10px; position: relative; top: -20px; left: 10px; padding: 0px; z-index: 1;">
+								<input type="text" name="attr-macula" style="height: 60px; width: 68px; background-color: transparent; border:none; font-size: 40px; text-align: center;">
+							</div>
+							<div style="height: 50px;">
+								<div class="sheet-row" style="height: 25px; position: relative; top: -10px; left: 20px;">
+									<label style="color: white">Mácula
+									</label>
+								</div>
+								<div style="height: 25px; width: 65%; background-color: white; border-radius: 7px; position: relative; left: 86px;">
+									<label style="position:relative; top: -12px; left: -65px">Pontos</label>
+									<input type="text" name="attr-pdm" style="height: 25px; width: 62%; border: none; background-color: transparent; position: relative; top: -55px; left: 75px;">
+								</div>
+								
+							</div>
+						</li>
+						
+					
+						<li class="sheet-row" style="height: 80px; background-color: black; border-radius: 10px; padding: 7px 10px 10px 10px; margin-right: 10px">
+							<div class="sheet-col-sm-6">
+								<div class="sheet-row" style="height: 30px; line-height: 30px; margin-bottom: 5px">
+									<input type="text" name="attr-percepcao" style="width: 40px; height: 30px; border-radius: 7px; background-color: white; font-size: 20px">
+									<label style="margin-left: 5px; font-size: 13px; color: white;">Percepção</span>
+								</div>
+								
+								<div class="sheet-row" style="height: 30px; line-height: 30px">
+									<input type="text" name="attr-intuicao" style="width: 40px; height: 30px; border-radius: 7px; background-color: white; font-size: 20px">
+									<label style="margin-left: 5px; font-size: 13px; color: white;">Intuição</span>
+								</div>
+							</div>
+							<div class="sheet-col-sm-6">
+								<div class="sheet-row" style="height: 30px; line-height: 30px; margin-bottom: 5px">
+									<input type="text" name="attr-percepcao" style="width: 40px; height: 30px; border-radius: 7px; background-color: white; font-size: 20px">
+									<label style="margin-left: 5px; font-size: 13px; color: white;">Vontade</span>
+								</div>
+								
+								<div class="sheet-row" style="height: 30px; line-height: 30px">
+									<input type="text" name="attr-intuicao" style="width: 40px; height: 30px; border-radius: 7px; background-color: white; font-size: 20px">
+									<label style="margin-left: 5px; font-size: 13px; color: white;">Tolerância</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="sheet-col-sm-6">
+					<div class="sheet-row">
+						<div class="sheet-row" style="margin: 0px;">
+							<label class="sheet-col-sm-1" style="padding: 0px; margin: 0px 5px 0px 0px; font-size: 20px; text-align: left;">FA</label>
+							<div class="sheet-col-sm-6" style="height: 45px; padding: 0px 2px; margin: 0px 5px 0px 5px;">
+								<input type="text" name="attr-fa1" style="height: 20px; width: 100%; border:none; border-bottom: 1px solid black;">
+								<label class="sheet-header"></label>
+							</div>
+							<div class="sheet-col-sm-4" style="height: 45px; padding: 0px 2px; margin: 0px 5px 0px 5px;">
+								<input type="text" name="attr-tipofa1" style="height: 20px; width: 100%; border:none; border-bottom: 1px solid black;">
+								<label class="sheet-header">Tipo de Dano</label>
+							</div>
+						</div>
+						<div class="sheet-row" style="margin: 0px;">
+							<label class="sheet-col-sm-1" style="padding: 0px; margin: 0px 5px 0px 0px; font-size: 20px; text-align: left;">FA</label>
+							<div class="sheet-col-sm-6" style="height: 45px; padding: 0px 2px; margin: 0px 5px 0px 5px;">
+								<input type="text" name="attr-fa2" style="height: 20px; width: 100%; border:none; border-bottom: 1px solid black;">
+								<label class="sheet-header"></label>
+							</div>
+							<div class="sheet-col-sm-4" style="height: 45px; padding: 0px 2px; margin: 0px 5px 0px 5px;">
+								<input type="text" name="attr-tipofa2" style="height: 20px; width: 100%; border:none; border-bottom: 1px solid black;">
+								<label class="sheet-header">Tipo de Dano</label>
+							</div>
+						</div>
+						<div class="sheet-row" style="margin: 0px;">
+							<label class="sheet-col-sm-1" style="padding: 0px; margin: 0px 5px 0px 0px; font-size: 20px; text-align: left;">FD</label>
+							<div class="sheet-col-sm-10" style="height: 20px; width: 86.5%; padding: 0px 2px; margin: 0px 5px 0px 5px;">
+								<input type="text" name="attr-fa1" style="height: 20px; width: 100%; border:none; border-bottom: 1px solid black;">
+								<label class="sheet-header"></label>
+							</div>
+						</div>
+					</div>
+					<div class="sheet-row" style="border: 1px solid black; text-align: center; padding: 5px 5px 0px 5px;">
+						<div class="sheet-row">
+							<label>Deslocamento</label>
+						</div>
+						<div class="sheet-row" style="margin: 0px;">
+							<div class="sheet-col-sm-3" style="height: 60px; padding: 0px; border-right: 1px solid black;">
+								<label>Normal</label>
+								<input type="text" name="attr-desloc"class="sheet-col-sm-12" style="height: 30px; background-color: transparent; border:none; text-align: center; font-size: 30px;">
+							</div>
+							
+							<div class="sheet-col-sm-3" style="height: 60px; padding: 0px; border-right: 1px solid black;">
+								<label>Combate</label>
+								<input type="text" name="attr-desloc_combate" class="sheet-col-sm-12" style="height: 30px; background-color: transparent; border:none; text-align: center; font-size: 30px;">
+							</div>
+							
+							<div class="sheet-col-sm-3" style="height: 60px; padding: 0px; border-right: 1px solid black;">
+								<label>Máximo</label>
+								<input type="text" name="attr-desloc_max" class="sheet-col-sm-12" style="height: 30px; background-color: transparent; border:none; text-align: center; font-size: 30px;">
+							</div>
+							
+							<div class="sheet-col-sm-3" style="height: 60px; padding: 0px;">
+								<label>Viagem</label>
+								<input type="text" name="attr-desloc_viagem" class="sheet-col-sm-12" style="height: 30px; background-color: transparent; border:none; text-align: center; font-size: 30px;">
+							</div>
+						</div>
+					</div>
+					
+					<div class="sheet-row" style="margin-top: 10px; ">
+					
+						<div class="sheet-col-sm-6" style="padding-left: 0px; padding-right: 5px;">
+							<div style="border: 1px solid black; height: 525px;">
+								<div class="sheet-row" style="margin: 0px; text-align: center">
+									<Label>Inventário</label>
+								</div>
+								<div class="sheet-row" style="margin: 0px 0px 5px 0px;">
+									<label class="sheet-col-sm-2" style="padding: 0px; margin: 0px 5px; font-size: 15px">T$</label>
+									<input type="text" name="attr-tibar" class="sheet-col-sm-9" style="background-color: transparent; height: 20px; border: none; border-bottom: 1px solid black;">
+								</div>
+								<div class="sheet-row" style="margin: 0px 0px 5px 0px;">
+									<label class="sheet-col-sm-2" style="padding: 0px; margin: 0px 5px; font-size: 15px">T.P</label>
+									<input type="text" name="attr-10tibar" class="sheet-col-sm-9" style="background-color: transparent; height: 20px; border: none; border-bottom: 1px solid black;">
+								</div>
+								<div class="sheet-row" style="margin: 0px 0px 5px 0px;">
+									<label class="sheet-col-sm-2" style="padding: 0px; margin: 0px 5px; font-size: 15px">T.O</label>
+									<input type="text" name="attr-100tibar"class="sheet-col-sm-9" style="background-color: transparent; height: 20px; border: none; border-bottom: 1px solid black;">
+								</div>
+								<div class="sheet-row" style="margin: 0px 0px 5px 0px;">
+									<label class="sheet-col-sm-2" style="padding: 0px; margin: 0px 5px; font-size: 15px">T.L</label>
+									<input type="text" name="attr-1000tibar" class="sheet-col-sm-9" style="background-color: transparent; height: 20px; border: none; border-bottom: 1px solid black;">
+								</div>
+								<hr style="border-bottom: 1px solid black; margin: 0px;">
+								<textarea name="attr-inventario" style="background-color: transparent; height: 74.8%; width: 100%; border: none; resize: none;"></textarea>
+							</div>
+						</div>
+						<div class="sheet-col-sm-6" style="padding-left: 5px; padding-right: 0px;">
+							<div class="sheet-row" style="text-align: center; background-color: black; margin: 0px 0px 2px 0px; padding-top: 3px;">
+									<label style="color: white; margin: 0px">Perícias</label>
+							</div>
+							<div style="border: 1px solid #a8a8a8; background-color: #a8a8a8; height: 501px">
+								<div class="sheet-row" style="margin: 0px 5px">
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px;">
+											<input type="checkbox" style="margin: 0px"> Arte
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Ciências
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Crime
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Esporte
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Idiomas
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Liderança
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Manipulação
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Máquinas
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Medicina
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Natureza
+										</label>
+									</div>
+									<div>
+										<label style="font-size: 13px; margin-bottom: 0px !important;">
+											<input type="checkbox" style="margin: 0px"> Ocultismo
+										</label>
+									</div>
+								</div>
+								<div class="sheet-row" style="padding: 0px 20px 5px 20px; height: 60.5%;">
+									<textarea name="attr-especializacao" style="background-color: white; height: 100%; width: 100%; border: none; resize: none;"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sheet-row" style="height: 250px;text-align: center">
+				<div class="sheet-col-sm-8" style="height: 100%; padding: 0px 5px 0px 0px;">
+					<div class="sheet-row" style="background-color: black; margin: 0px">
+						<label class="sheet-col-sm-6" style="color: white; font-size: 12px">Vantagens</label>
+						<label class="sheet-col-sm-6" style="color: white; font-size: 12px">Desvantagens</label>
+					</div>
+					<div class="sheet-col-sm-6" style="height: 229px; padding: 0px; border-right: 1px solid black;">
+						<textarea name="attr-vantagens" style="height: 100%; width: 100%; border: none; resize: none;"></textarea>
+					</div>
+					<div class="sheet-col-sm-6" style="height: 229px; padding: 0px;">
+						<textarea name="attr-vantagens" style="height: 100%; width: 100%; border: none; resize: none;"></textarea>
+					</div>
+				</div>
+				<div class="sheet-col-sm-4" style="padding: 0px 0px 0px 5px;">
+					<div class="sheet-row" style="background-color: black; margin: 0px;">
+						<label style="color: white; font-size: 12px">Vantagens de Classe e Kit</label>
+					</div>
+					<div class="sheet-col-sm-12" style="height: 229px; padding: 0px;">
+						<textarea name="attr-vantagens" style="height: 100%; width: 100%; border: none; resize: none;"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+			<video loop autoplay>
+				<source src="https://img-9gag-fun.9cache.com/photo/avGowOW_460sv.mp4" type="video/mp4">
+			</video>
+	</body>
+</html>
